@@ -163,9 +163,16 @@ a {
 
 
 @media (max-width: 1200px) {
+    body {
+        position: relative;
+    }
 
     .imagem {
-        width: 100%;
+        width: 86%;
+        height: 41%;
+        position: absolute;
+        top: 145%;
+        right: 0%;
     }
 
     .cabecalho {
@@ -187,6 +194,9 @@ a {
 
     }
 
+    .presentation_links {
+        margin: 0px 0px 400px 0px;
+    }
     
     
 }
